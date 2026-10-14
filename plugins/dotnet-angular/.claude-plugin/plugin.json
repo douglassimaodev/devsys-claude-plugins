@@ -1,0 +1,8 @@
+{
+  "name": "dotnet-angular",
+  "version": "1.3.1",
+  "description": ".NET (latest LTS) + EF Core + MariaDB + Angular (latest stable major) stack conventions, version policy and notes, pitfalls checklist and skills.",
+  "author": {
+    "name": "devsys"
+  }
+}

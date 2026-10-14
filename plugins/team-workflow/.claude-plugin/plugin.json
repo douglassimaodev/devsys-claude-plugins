@@ -1,0 +1,8 @@
+{
+  "name": "team-workflow",
+  "version": "1.5.1",
+  "description": "Multi-agent development workflow: dispatcher, roles, session-resume protocol, git rules, quality gate and generic review skills.",
+  "author": {
+    "name": "devsys"
+  }
+}

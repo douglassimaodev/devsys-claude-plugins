@@ -1,0 +1,23 @@
+{
+  "name": "devsys",
+  "owner": {
+    "name": "devsys"
+  },
+  "metadata": {
+    "description": "Reusable Claude Code setup: multi-agent team workflow + .NET/Angular stack conventions."
+  },
+  "plugins": [
+    {
+      "name": "team-workflow",
+      "source": "./plugins/team-workflow",
+      "description": "Multi-agent development workflow (PM, TECH_LEAD, ARCHITECT, FULLSTACK_DEVELOPER, QA, NAVIGATOR) with dispatcher, session-resume protocol, git rules, quality gate and generic review skills. Optional junior-senior profile: a junior developer implements normal subtasks, a senior developer implements pattern-setting ones, a fresh senior/tech-lead reviewer reviews before QA; milestones run subtask after subtask until the quality gate. Includes an independent QA agent, a lessons loop and an Opus project-planner that breaks the project into milestones. Includes a UI designer agent for landing pages and admin portals.",
+      "version": "1.5.1"
+    },
+    {
+      "name": "dotnet-angular",
+      "source": "./plugins/dotnet-angular",
+      "description": ".NET (latest LTS) + EF Core + MariaDB + Angular (latest stable major) stack conventions, version policy and notes, pitfalls checklist, Angular UI/Syncfusion theming, and code-generation/review skills.",
+      "version": "1.3.1"
+    }
+  ]
+}
